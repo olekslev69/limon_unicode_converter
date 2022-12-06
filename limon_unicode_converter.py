@@ -123,10 +123,4 @@ class Converter:
                 LimonText = swap(LimonText, LimonText[i], LimonText[i+1])
         return LimonText
 
-if __name__ == "__main__":
-    
-    # example of Limon text to Unicode text
-    limon_text = "-eRbgsMagcMnYn 83>460lIRt	=326>013>000`"
-    newstring = Converter.Limon2Unicode(limon_text)
-    print(newstring)
 
